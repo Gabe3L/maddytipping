@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'How to make a blog post!'
+image: /assets/images/instagram.webp
+tags:
+  - intro
+---
+
+![Image](https://images.unsplash.com/photo-1689852501130-e89d9e54aa41?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+## Description
+
+This is how you make a blog post!
+
+This is everything you can do: [Click Here](https://www.markdownguide.org/cheat-sheet/)
+
+```
+Here is some different text
+```
+
+```bash
+Here is some different text
+```
+
+```yaml
+Here is some different text
+```
+
+**Here is some different text**
+
+*Here is some different text*
+
+> Here is some different text
+
+1. Here is some different text
+2. Here is some different text
+3. Here is some different text
+
+Here is a line:
+--------------------------
