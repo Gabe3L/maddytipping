@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-# Welcome
+# My English Website
 
-Hello World. Hello Friend.
-
+Welcome to Maddy's English Website
