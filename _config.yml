@@ -7,8 +7,6 @@ url: https://gabe3l.github.io/maddytipping
 lang: en
 theme: wind-theme
 
-color: "#ff5eef"
-
 collections:
   pages:
     output: true
