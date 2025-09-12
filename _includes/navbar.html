@@ -69,7 +69,6 @@
           </svg>
           <svg id="moon-icon-mobile" class="w-8 h-8 text-yellow-500 hidden" fill="none" stroke="currentColor"
             viewBox="0 0 24 24">
-            <!-- SVG code for a moon icon (dark mode) -->
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -113,26 +112,22 @@
 </script>
 
 <script>
-  // Desktop version
   const darkModeToggle = document.getElementById('darkModeToggle');
   const sunIcon = document.getElementById('sun-icon');
   const moonIcon = document.getElementById('moon-icon');
   const html = document.documentElement;
   let isDarkMode = false;
 
-  // Function to toggle dark/light mode
   function toggleDarkMode() {
     isDarkMode = !isDarkMode;
     html.classList.toggle('dark', isDarkMode);
     sunIcon.style.display = isDarkMode ? 'none' : 'block';
     moonIcon.style.display = isDarkMode ? 'block' : 'none';
-    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light'); // Store user preference
+    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light');
   }
 
-  // Add a click event listener to the toggle button
   darkModeToggle.addEventListener('click', toggleDarkMode);
 
-  // Check the user's preference and apply it on page load
   const savedMode = localStorage.getItem('darkMode');
   if (savedMode === 'dark') {
     html.classList.add('dark');
@@ -144,25 +139,21 @@
     moonIcon.style.display = 'none';
   }
 
-  // Mobile version (using the same storage key as desktop)
   const modeToggleMobile = document.getElementById('modeToggleMobile');
   const sunIconMobile = document.getElementById('sun-icon-mobile');
   const moonIconMobile = document.getElementById('moon-icon-mobile');
   const htmlMobile = document.documentElement;
 
-  // Function to toggle dark/light mode for mobile
   function toggleDarkModeMobile() {
-    isDarkMode = !isDarkMode; // Use the same isDarkMode variable as desktop
+    isDarkMode = !isDarkMode;
     htmlMobile.classList.toggle('dark', isDarkMode);
     sunIconMobile.style.display = isDarkMode ? 'none' : 'block';
     moonIconMobile.style.display = isDarkMode ? 'block' : 'none';
-    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light'); // Use the same storage key as desktop
+    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light');
   }
 
-  // Add a click event listener to the mobile toggle button
   modeToggleMobile.addEventListener('click', toggleDarkModeMobile);
 
-  // Check the user's preference and apply it on page load for mobile
   const savedModeMobile = localStorage.getItem('darkMode');
   if (savedModeMobile === 'dark') {
     htmlMobile.classList.add('dark');

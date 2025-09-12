@@ -1,13 +1,17 @@
 photos:
-  - url: https://picsum.photos/200/300
-    quote: This is a quote
-  - url: https://picsum.photos/800/800
-    quote: This is a quote
-  - url: https://picsum.photos/1200/720
-    quote: This is a quote
-  - url: https://picsum.photos/600/600
-    quote: This is a quote
-  - url: https://picsum.photos/400/600
-    quote: This is a quote
-  - url: https://picsum.photos/300/200
-    quote: This is a quote
+  - url: /assets/images/gallery/VimyMemorial.jpg
+    quote: Vimy Memorial
+  - url: /assets/images/gallery/WarMemorialGuards.jpg
+    quote: War Memorial Guards
+  - url: /assets/images/gallery/CNTower.jpg
+    quote: CN Tower
+  - url: /assets/images/gallery/ParlimentHill.jpg
+    quote: Parliment Hill
+  - url: /assets/images/gallery/Elephant.jpg
+    quote: Elephant
+  - url: /assets/images/gallery/Moose.jpg
+    quote: Moose
+  - url: /assets/images/gallery/Beaver.jpg
+    quote: Beaver
+  - url: /assets/images/gallery/Dinosaur.jpg
+    quote: Dinosaur

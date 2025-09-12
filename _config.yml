@@ -8,3 +8,8 @@ lang: en
 theme: wind-theme
 
 color: "#ff5eef"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/

@@ -1,5 +1,7 @@
 ---
+title: Blog
 layout: home
+permalink: /
 ---
 # My English Website
 

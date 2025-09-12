@@ -9,22 +9,17 @@
     document.addEventListener('DOMContentLoaded', function() {
       var upButton = document.getElementById('up-button');
 
-      // Function to handle scroll event
       function handleScroll() {
         if (window.scrollY > 100) {
-          upButton.style.display = 'block'; // Show the button when scrolled down
+          upButton.style.display = 'block';
         } else {
-          upButton.style.display = 'none'; // Hide the button when at the top
+          upButton.style.display = 'none';
         }
       }
 
-      // Add scroll event listener
       window.addEventListener('scroll', handleScroll);
-
-      // Initial check to show/hide the button based on initial scroll position
       handleScroll();
 
-      // Add click event listener to scroll to the top when the button is clicked
       upButton.addEventListener('click', function(e) {
         e.preventDefault();
         window.scrollTo({
