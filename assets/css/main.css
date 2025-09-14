@@ -1,14 +1,5 @@
-@font-face {
-  font-family: 'Adamina';
-  src: url("/assets/fonts/Adamina/Adamina-Regular.ttf");
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Open+Sans:wght@400;600;700&display=swap');
 
-@font-face {
-  font-family: 'OpenSans';
-  src: url("/assets/fonts/Open_Sans/static/OpenSans-Regular.ttf");
-  font-display: swap;
-}
 
 @layer base {
   body {
