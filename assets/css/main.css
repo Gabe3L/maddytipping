@@ -1,6 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: 'Adamina';
+  src: url("/assets/fonts/Adamina/Adamina-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("/assets/fonts/Open_Sans/static/OpenSans-Regular.ttf");
+  font-display: swap;
+}
 
 @layer base {
   body {
@@ -15,6 +23,11 @@
   h6 {
     font-family: 'Adamina', serif;
   }
+}
+
+h1 {
+  text-decoration-color: #fa9fca;
+  text-decoration-line: underline;
 }
 
 .fadeIn {
