@@ -1,10 +1,9 @@
 ---
-title: Blog
+title: English Blog
 layout: home
 permalink: /
 ---
-# My English Website
+# Madison Tipping's Blog
 
-Welcome to Maddy's English Website
+Welcome to my blog!
 
-Hello!
